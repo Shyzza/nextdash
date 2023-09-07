@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@types/node": "20.5.9",
@@ -17,6 +19,34 @@
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.4",
+    "@mui/x-data-grid": "^6.11.1",
+    "@mui/x-data-grid-generator": "^6.11.1",
+    "@types/chart.js": "^2.9.37",
+    "chart.js": "^4.3.3",
+    "mssql": "^9.2.0",
+    "mysql2": "^3.6.0",
+    "@types/mssql": "^8.1.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0"
+  },
+  "devDependencies": {
+    "@types/swagger-ui-react": "^4.18.0",
+    "next-swagger-doc": "^0.4.0",
+    "swagger-ui-react": "^5.5.0",
+    "@mui/types": "^7.2.4",
+    "@storybook/addon-essentials": "^7.3.0",
+    "@storybook/addon-interactions": "^7.3.0",
+    "@storybook/addon-links": "^7.3.0",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.3.0",
+    "@storybook/nextjs": "^7.3.0",
+    "@storybook/react": "^7.3.0",
+    "@storybook/testing-library": "^0.2.0",
+    "eslint-plugin-storybook": "^0.6.13",
+    "sass": "^1.65.1",
+    "storybook": "^7.3.0"
   }
 }
