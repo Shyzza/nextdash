@@ -83,9 +83,9 @@ const Header = (props: HeaderProps) => {
           >
             WinBas
           </Typography>
-          {/* <Box sx={{ marginLeft: "auto" }}>
+          <Box sx={{ marginLeft: "auto" }}>
             <ThemeToggleButton ColorModeContext={ColorModeContex} />
-          </Box> */}
+          </Box>
         </Toolbar>
       </Container>
     </AppBar>
