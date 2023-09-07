@@ -13,7 +13,7 @@ const Dashboard = () => {
       <Grid container gap={4} marginTop={2}>
         {" "}
         {/* Set the height of the container to 100vh */}
-        {/* <DataRibbon /> */}
+        <DataRibbon />
         {/* <PositionsPerDay /> */}
         {/* <PositionsBottomRow /> */}
       </Grid>

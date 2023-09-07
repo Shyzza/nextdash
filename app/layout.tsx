@@ -39,14 +39,14 @@ export default function RootLayout({
       createTheme({
         ...darkTheme,
       }),
-    [mode]
+    []
   );
   const lightThemeChosen = React.useMemo(
     () =>
       createTheme({
         ...lightTheme,
       }),
-    [mode]
+    []
   );
 
   return (
